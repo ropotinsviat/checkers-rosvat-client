@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.header-wrapper {
+  background-color: #000;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  position: relative;
+}
+.header {
+  height: 50px;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 7%;
+}
+.hamburger-wrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  width: fit-content;
+  transition: 0.1s;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.first-hamburger:hover {
+  background-color: #272727;
+}
+.logo-wrapper {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-wrapper::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../jpgs/logo.png");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  margin-left: 20px; /* Adjust spacing between text and logo */
+  vertical-align: middle; /* Aligns vertically */
+}
+
+.side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 25px;
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  column-gap: 5px;
+  font-size: 16px;
+
+  div {
+    transition: 0.1s;
+    padding: 12px 15px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 20px;
+    cursor: pointer;
+  }
+  div:hover {
+    background-color: #3d3d3d;
+  }
+}
+
+.login-wrapper {
+  float: right;
+}
+
+@media screen and (max-width: 890px) {
+  nav {
+    display: none;
+  }
+  .hamburger-wrapper {
+    display: flex;
+  }
+  .logo-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .header {
+    margin: 0 2%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .logo-wrapper {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: #181818;
+}
+
+.overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 800;
+  background-color: rgb(1, 1, 1, 0.8);
+}
+
+.middle-bar {
+  overflow: hidden;
+  width: 500px;
+  z-index: 900;
+  max-width: 90%;
+  height: 325px;
+  position: fixed;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1.5px;
+  color: white;
+}
+.pic-auth::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url(https://st5.depositphotos.com/16122460/66399/i/450/depositphotos_663999304-stock-photo-man-playing-checkers-woman-black.jpg);
+  filter: brightness(40%) blur(5px);
+}
+.cancel-btn {
+  position: fixed;
+  color: white;
+  right: 5px;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  transition: 0.1s;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1001;
+}
+.cancel-btn:hover {
+  background-color: rgba(90, 90, 90, 0.2);
+}
+.infos {
+  margin-top: 25px;
+  margin-left: 50px;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  display: flex;
+  row-gap: 9px;
+  h2 {
+    color: rgb(152, 195, 53);
+    font-weight: 400;
+  }
+}
+.google-btn-wrapper {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-btn input {
+  color: white;
+  background-color: black;
+  border: 2px solid white !important;
+  min-width: 75px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.custom-btn input:hover {
+  color: black;
+  background-color: white;
+}

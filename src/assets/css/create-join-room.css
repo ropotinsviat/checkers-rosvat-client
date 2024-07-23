@@ -1,0 +1,71 @@
+.main-box {
+  background-color: black;
+  padding: 25px 75px;
+  border-radius: 5px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+.txt-bar input,
+.btns-bar select {
+  background-color: black;
+  color: white;
+  padding: 3px 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  font-size: 16px;
+}
+.txt-bar input:focus,
+.btns-bar select:focus {
+  background-color: rgb(40, 40, 40);
+}
+.btns-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+  margin-top: 25px;
+}
+.btns-bar div input {
+  width: 125px;
+}
+#mrg-top {
+  margin-top: 25px;
+}
+.inf {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  column-gap: 15px;
+}
+.fst-el {
+  width: 50px;
+}
+.logout {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.prof {
+  width: 45% !important;
+  min-width: 350px !important;
+  padding: 30px !important;
+}
+
+@media screen and (orientation: portrait) {
+  .main-box {
+    padding: 75px 25px;
+  }
+  .btns-bar div input {
+    width: 105px;
+  }
+  #shrt {
+    width: 150px;
+  }
+}

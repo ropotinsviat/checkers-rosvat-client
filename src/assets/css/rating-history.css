@@ -1,0 +1,148 @@
+.container {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.table-header {
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+
+.table-header .cell,
+.table-row .cell {
+  flex: 1;
+  text-align: center;
+}
+
+.table-header .cell:first-child,
+.table-row .cell:first-child {
+  flex: 0 0 50px;
+  text-align: left;
+}
+
+.table-header .cell:nth-child(2),
+.table-row .cell:nth-child(2) {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.table-row {
+  border-bottom: 1px solid #333;
+}
+
+.table-row .cell:nth-child(2) {
+  padding-left: 10px;
+}
+
+.table-row img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.score-won {
+  color: yellowgreen;
+}
+
+.score-draw {
+  color: #c0c0c0;
+}
+
+.score-lost {
+  color: #f03f2c;
+}
+
+.img-name-box {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+}
+
+.palyers-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: start;
+}
+
+.palyers-box {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center;
+}
+
+.color-box {
+  border-radius: 1px;
+  display: block;
+  flex-shrink: 0;
+  height: 1rem;
+  margin-right: 0.5rem;
+  width: 1rem;
+  border: 0.05rem solid yellowgreen;
+}
+
+.fl {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+.whbg {
+  background-color: white;
+}
+.blbg {
+  background-color: black;
+}
+
+.title {
+  text-align: center;
+  padding: 50px;
+}
+
+.myText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+@media screen and (orientation: portrait) {
+  * {
+    font-size: small;
+  }
+  .container {
+    width: 100%;
+  }
+  .fl {
+    width: 95%;
+  }
+  .table-header .cell:first-child,
+  .table-row .cell:first-child {
+    flex: 0 0 20px;
+  }
+  .color-box {
+    border-radius: 1px;
+    display: block;
+    flex-shrink: 0;
+    height: 0.8rem;
+    margin-right: 0.5rem;
+    width: 0.8rem;
+    border: 0.05rem solid yellowgreen;
+  }
+}
