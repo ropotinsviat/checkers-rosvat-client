@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/checkers-rosvat-client/static/css/main.fb1a547c.css",
-    "main.js": "/checkers-rosvat-client/static/js/main.666ff2f3.js",
-    "static/media/history.svg": "/checkers-rosvat-client/static/media/history.0fc271eda8b610f62d3e838f700d995e.svg",
-    "static/media/profile.svg": "/checkers-rosvat-client/static/media/profile.23ea1233d7e2cebec0a11d8a88b2da1a.svg",
-    "static/media/cup.svg": "/checkers-rosvat-client/static/media/cup.8067e7b2cea9d9f7d98740926e12b40d.svg",
-    "static/media/plus.svg": "/checkers-rosvat-client/static/media/plus.8c9a76d580b0de680240aa7de1491b89.svg",
-    "static/media/home1.svg": "/checkers-rosvat-client/static/media/home1.f0cdb3d911ac7c504c3fcbab828952b8.svg",
-    "static/media/play-button-svgrepo-com (1).svg": "/checkers-rosvat-client/static/media/play-button-svgrepo-com (1).498a4adb089d8bb096cf8132edae6458.svg",
-    "index.html": "/checkers-rosvat-client/index.html",
-    "static/media/join.svg": "/checkers-rosvat-client/static/media/join.80656460cacc8268e1d3b15232b184d7.svg",
-    "static/media/x-thin.svg": "/checkers-rosvat-client/static/media/x-thin.aa78c9d92dd1bd44cbf51500dd2ebc53.svg",
-    "static/media/burger1.svg": "/checkers-rosvat-client/static/media/burger1.4011566481cf6511143c290797db8e57.svg",
-    "main.fb1a547c.css.map": "/checkers-rosvat-client/static/css/main.fb1a547c.css.map",
-    "main.666ff2f3.js.map": "/checkers-rosvat-client/static/js/main.666ff2f3.js.map"
+    "main.css": "/static/css/main.fb1a547c.css",
+    "main.js": "/static/js/main.44e79c45.js",
+    "static/media/history.svg": "/static/media/history.0fc271eda8b610f62d3e838f700d995e.svg",
+    "static/media/profile.svg": "/static/media/profile.23ea1233d7e2cebec0a11d8a88b2da1a.svg",
+    "static/media/cup.svg": "/static/media/cup.8067e7b2cea9d9f7d98740926e12b40d.svg",
+    "static/media/plus.svg": "/static/media/plus.8c9a76d580b0de680240aa7de1491b89.svg",
+    "static/media/home1.svg": "/static/media/home1.f0cdb3d911ac7c504c3fcbab828952b8.svg",
+    "static/media/play-button-svgrepo-com (1).svg": "/static/media/play-button-svgrepo-com (1).498a4adb089d8bb096cf8132edae6458.svg",
+    "static/media/join.svg": "/static/media/join.80656460cacc8268e1d3b15232b184d7.svg",
+    "index.html": "/index.html",
+    "static/media/x-thin.svg": "/static/media/x-thin.aa78c9d92dd1bd44cbf51500dd2ebc53.svg",
+    "static/media/burger1.svg": "/static/media/burger1.4011566481cf6511143c290797db8e57.svg",
+    "main.fb1a547c.css.map": "/static/css/main.fb1a547c.css.map",
+    "main.44e79c45.js.map": "/static/js/main.44e79c45.js.map"
   },
   "entrypoints": [
     "static/css/main.fb1a547c.css",
-    "static/js/main.666ff2f3.js"
+    "static/js/main.44e79c45.js"
   ]
 }
